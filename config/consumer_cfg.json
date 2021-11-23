@@ -1,0 +1,7 @@
+{
+    "bootstrap_servers" : ["localhost:9092"],
+    "auto_offset_reset" : "earliest",
+    "client_id" : "app-client-id",
+    "group_id" : "app-group-id"
+}
+

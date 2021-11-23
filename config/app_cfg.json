@@ -1,0 +1,6 @@
+{
+    "client.buffer.size" : 50,
+   " client.reconnect.retry" : 3,
+    "client.sleep.timeout.min ": 1,
+    "test_df_path" : "data/fashion_mnist/fashion-mnist_test.csv"
+}
