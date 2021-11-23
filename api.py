@@ -41,8 +41,6 @@ if __name__ == "__main__":
     for i, (l, im) in enumerate(zip(labels, images)):
         # stream bytes
         pushOut = imgStreamProducer.stream_records([i], [im.tolist()])
-        if i==400:
-            break
 
     # consume resutls
     results = dict()
